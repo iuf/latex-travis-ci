@@ -1,6 +1,12 @@
-before_install:
-- sudo apt-get update -qq
-- sudo apt-get install -qq --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended
+sudo: false
+addons:
+  apt:
+    sources:
+    - texlive-fonts-recommended 
+    - texlive-latex-extra 
+    - texlive-fonts-extra
+    - dvipng
+    - texlive-latex-recommended
 script:
 - make
 braches:
