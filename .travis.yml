@@ -2,11 +2,13 @@ sudo: false
 addons:
   apt:
     packages:
-    - texlive-fonts-recommended 
-    - texlive-latex-extra 
-    - texlive-fonts-extra
     - dvipng
+    - lmodern
+    - texlive-latex-base
     - texlive-latex-recommended
+    - texlive-latex-extra
+    - texlive-fonts-recommended
+    - texlive-fonts-extra
 script:
 - make
 braches:
