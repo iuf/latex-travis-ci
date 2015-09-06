@@ -18,6 +18,7 @@ deploy:
   provider: releases
   api_key:
     secure: jtQvTO0cOGS+Nx46ffKdN4SKQheGyHoa5kvxBzdJ+IsjKadi6+wFxp2fEfV+lfOz18O4vFAw2AXqKp9Yluy4Gouql+zXRrNbMDz+KiUXGfzn+lVW3FNpqbb8ZtpFVeIm+w5Du+wePyPVtUnHaGo/dU/1tfJpqLQ5THhrRxfWzla2G2X8YySKJ5myECyIxBQSwDSjQ1VQ6pZwnwH/oMgY0M4s3ZS1Xy7dql0AlQkHUb4YeznjDH9vJKiz7WZUlkKTKV9pl0Azb7XSUJJ5en5Rd7srhgeMc1+Xn09OXIwvjfs/4xC1qEM5Nny3pPbqIA6iPr4AMWL/0lzCUyW5mUSQtBFmSUv0Edjb/jj6HuKHiib+fCCN5tUAXNqHtReI3nnYP7iBeCEc1InA4vtmEJjzLoXPtpyJXJJiOjVnYtP9S5xdAj7hz6NZgAg3KTlfCY3x2u/7ea16q56WRHX6Ja3E9WAJ1uilyzr/U0ijywISPuAko+SUPedOvruCu1gmLQfNrvR5bP8h1twq8BONFJECbgxlOy8sCe15BC6/hPjpWwdFa49dnKzMB5MpqZWCsZ4Up9D8tEY6L9B/sPj9rAOyTZF8AzUeJWrHe8YXQjH0kl24rjmnSjOTdnGWgHJ78/ISv/ULna7ZcxpQm9nwEQbGP5AwPk0OZ7dQgxutzacKlXI=
+  skip_cleanup: true
   file: out/iuf-rulebook.pdf
   on:
     repo: iuf/latex-travis-ci
