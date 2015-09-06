@@ -9,6 +9,7 @@ For example:
     git add -A
     git commit -m "My commit message"
     git tag "test-1"
+    git push
     git push --tags
 
 The finished released and build can then be found at `https://github.com/iuf/latex-travis-ci/releases/tag/test-1`
